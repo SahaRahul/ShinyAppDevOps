@@ -8,6 +8,9 @@
 #
 
 library(shiny)
+#library(shiny, lib.loc="library")
+
+Faithful <- data(Faithful)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
